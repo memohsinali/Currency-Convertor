@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Currency Convertor</h1>
+
+            <form>
+                <div class="form">
+                    <div class="amount">
+                        <p>Enter Amount</p>
+                        <input type="text" value="1000" id="enterAmount">
+                    </div>
+
+                    <div class="dropdown">
+                        <p>From</p>
+                        <div class="from">
+
+                            <img src="https://flagsapi.com/US/shiny/64.png" alt="flags">
+                            <select name="from">
+                            </select>
+                        </div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black" style="margin-left: 40%; margin-top: 10%;"
+                            fill="#5f6368">
+                            <path
+                                d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" />
+                        </svg>
+
+                        <p>To</p>
+                        <div class="to">
+                            <img src="https://flagsapi.com/PK/shiny/64.png" alt="flags">
+                            <select name="to">
+                            </select>
+                        </div>
+
+                        </select>
+                    </div>
+                    <div class="msg"></div>
+                    <button>Get Exchange Rate</button>
+                   
+                </div>
+                
+            </form>
+        </div>
+
+        </div>
+    </main>
+    <script src="code.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
